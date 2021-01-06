@@ -1,10 +1,9 @@
 const app = Vue.createApp({
-  data: function () {
+  data() {
     return {
-      product: "Socks",
-      image: "./assets/images/socks_green.jpg",
-      inventory: 100,
-      onSale: false,
+      cart: 0,
+      premium: true,
     };
   },
+  methods: {},
 });
